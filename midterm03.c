@@ -1,21 +1,21 @@
-//git config --global user.name "S6519N10003"
-//git config --global user.email "s6519n10003@sau.ac.th"
-
-//git init
-//git add .
-//git commit -m "Version......"
-//git remote ...........
-//git push -u origin master
-
-//-------------------------------------------
-
-//git add .
-//git commit -m "Version......"
-//git push -u origin master
-
 #include <stdio.h>
+#include <conio.h>
 
-void main (){
+#define PA printf ("++++++++++++++++++++++++++++++++++++++++++\n") ;
 
-    
+void main()
+{
+    float ce, fa ;
+   
+    PA
+    printf ("       Program Celcius to Farenheit \n") ;
+    PA
+    printf ("Enter Celcius : ") ;
+    scanf  ("%f", &ce) ;
+
+    fa = ( ce * 1.8 )+ 32 ;
+    printf ("Farenheit : %.2f \n" , fa) ;
+    PA
+
+
 }

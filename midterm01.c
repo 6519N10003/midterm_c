@@ -14,8 +14,27 @@
 //git push -u origin master
 
 #include <stdio.h>
+#include <conio.h>
 
-void main (){
+#define PA printf ("++++++++++++++++++++++++++++++++++++++++++\n") ;
 
+void main()
+{
+    float r1, r2 , r3, rSUM ;
     
+    PA
+    printf ("       Program Resistance\n") ;
+    PA
+    printf ("Enter Resistance 1 : ") ;
+    scanf  ("%f", &r1) ;
+    printf ("Enter Resistance 2 : ") ;
+    scanf  ("%f", &r2) ;
+    printf ("Enter Resistance 3 : ") ;
+    scanf  ("%f", &r3) ;
+    PA
+    rSUM = rSUM = r1 * r2 * r3 / ((r1 * r2 )+(r2 * r3 )+ (r1 + r3));
+    printf ("Sum Resistance : %.2f \n" , rSUM) ;
+    PA
+
+
 }
